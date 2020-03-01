@@ -34,12 +34,12 @@ class _MenuState extends State<Menu> {
                   padding: const EdgeInsets.all(20),
                   height: 100,
                   child: Card(
-                      color: Colors.yellowAccent,
+                      color: Colors.black,
                       child: Center(
                           child: Text(
                         "Opppss!! Sorry Page Not Found",
                         style: TextStyle(
-                            color: Colors.pinkAccent,
+                            color: Colors.redAccent,
                             fontSize: 25,
                             fontStyle: FontStyle.italic,
                             fontWeight: FontWeight.bold),
