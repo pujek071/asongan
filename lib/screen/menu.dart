@@ -104,8 +104,8 @@ class _MenuState extends State<Menu> {
       bottomNavigationBar: FFNavigationBar(
         theme: FFNavigationBarTheme(
           barBackgroundColor: Colors.white,
-          selectedItemBorderColor: Colors.yellow,
-          selectedItemBackgroundColor: Colors.green,
+          selectedItemBorderColor: Colors.redAccent,
+          selectedItemBackgroundColor: Colors.black,
           selectedItemIconColor: Colors.white,
           selectedItemLabelColor: Colors.black,
         ),

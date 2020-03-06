@@ -1,4 +1,5 @@
 import 'package:casestoreapp/screen/produk/produkCatalog.dart';
+import 'package:casestoreapp/screen/produk/produkCatalogHome.dart';
 import 'package:casestoreapp/screen/widget/categori.dart';
 import 'package:casestoreapp/screen/widget/coverPromo.dart';
 import 'package:casestoreapp/screen/widget/credit.dart';
@@ -81,9 +82,13 @@ class _HomeState extends State<Home> {
                       height: 230,
                       width: double.infinity,
                       child: RecomProduk()),
+                  
                 ],
               ),
-            )
+            ),
+            Container(
+                    child: ProdukCatalogHomeHome()
+                  )
           ],
         ),
       ],
